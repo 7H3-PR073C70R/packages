@@ -1,5 +1,19 @@
-## NEXT
+## 1.0.6
 
+* Fixes new lint warnings.
+
+## 1.0.5
+
+* Updates example app to use non-deprecated video_player method.
+* Updates minimum supported SDK version to Flutter 3.10/Dart 3.0.
+
+## 1.0.4
+
+* Updates README to fix broken link.
+
+## 1.0.3
+
+* Adds pub topics to package metadata.
 * Updates minimum supported SDK version to Flutter 3.7/Dart 2.19.
 
 ## 1.0.2

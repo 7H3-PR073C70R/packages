@@ -1,5 +1,11 @@
-## NEXT
+## 3.0.2
 
+* Updates minimum supported SDK version to Flutter 3.10/Dart 3.0.
+* Removes input element after completion
+
+## 3.0.1
+
+* Adds pub topics to package metadata.
 * Updates minimum supported SDK version to Flutter 3.7/Dart 2.19.
 
 ## 3.0.0

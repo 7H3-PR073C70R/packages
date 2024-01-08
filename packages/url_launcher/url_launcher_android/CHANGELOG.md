@@ -1,5 +1,26 @@
-## NEXT
+## 6.2.1
 
+* Updates minimum supported SDK version to Flutter 3.10/Dart 3.0.
+* Fixes lint warnings.
+
+## 6.2.0
+
+* Adds support for `inAppBrowserView` as a separate launch mode option from
+  `inAppWebView` mode. `inAppBrowserView` is the preferred in-app mode for most uses,
+  but does not support `closeInAppWebView`.
+* Implements `supportsMode` and `supportsCloseForMode`.
+
+## 6.1.1
+
+* Updates annotations lib to 1.7.0.
+
+## 6.1.0
+
+* Adds support for Android Custom Tabs.
+
+## 6.0.39
+
+* Adds pub topics to package metadata.
 * Updates minimum supported SDK version to Flutter 3.7/Dart 2.19.
 
 ## 6.0.38

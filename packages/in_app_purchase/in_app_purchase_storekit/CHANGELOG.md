@@ -1,5 +1,19 @@
-## NEXT
+## 0.3.8
 
+* Updates minimum supported SDK version to Flutter 3.10/Dart 3.0.
+* Fixes new lint warnings.
+
+## 0.3.7
+
+* Adds `Future<SKStorefrontWrapper?> storefront()` in SKPaymentQueueWrapper class. 
+
+## 0.3.6+7
+
+* Updates example code for current versions of Flutter.
+
+## 0.3.6+6
+
+* Adds pub topics to package metadata.
 * Updates minimum supported SDK version to Flutter 3.7/Dart 2.19.
 
 ## 0.3.6+5

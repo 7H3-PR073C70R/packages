@@ -89,8 +89,7 @@ Future<int> generateTestPigeons({required String baseDir}) async {
           ? null
           : '$outputBase/android/src/main/kotlin/com/example/test_plugin/$pascalCaseName.gen.kt',
       kotlinPackage: 'com.example.test_plugin',
-      kotlinErrorClassName:
-          input == 'core_tests' ? null : '${pascalCaseName}Error',
+      kotlinErrorClassName: '${pascalCaseName}Error',
       // iOS
       swiftOut: skipLanguages.contains(GeneratorLanguages.swift)
           ? null
@@ -245,7 +244,7 @@ Future<int> formatAllFiles({required String repositoryRoot}) {
         'format',
         '--packages=pigeon',
       ],
-      streamOutput: false,
       workingDirectory: repositoryRoot,
+      streamOutput: false,
       logFailure: true);
 }

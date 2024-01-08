@@ -1,5 +1,11 @@
-## NEXT
+## 1.0.4
 
+* Updates minimum supported SDK version to Flutter 3.10/Dart 3.0.
+* Fixes new lint warnings.
+
+## 1.0.3
+
+* Adds pub topics to package metadata.
 * Updates minimum supported SDK version to Flutter 3.7/Dart 2.19.
 
 ## 1.0.2
